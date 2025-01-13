@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors><!-- + -->
+        <actor id="1">
+            <nom></nom>
+            <edat></edat><!-- ? -->
+        </actor>
+    </llista_actors>
+    <llista_pelicules><!-- + -->
+        <pelicula id="">
+            <titol idioma="es"></titol>
+            <director></director>
+            <any></any>
+            <actors><!-- + -->
+                <actor_ref ref="idref"/>
+            </actors>
+        </pelicula>
+        <pelicula id="">
+            <titol idioma="es"></titol>
+            <director></director>
+            <any></any>
+            <actors><!-- + -->
+                <actor_ref ref="idref"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="idref"/><!-- * -->
+    </llista_recomanacions_pelicules>
+</cataleg>
+
+<!-- afegir dades canviar any i idref-->
+<!-- * possibles combinacions -->
