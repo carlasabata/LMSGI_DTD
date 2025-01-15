@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cataleg>
     <llista_actors><!-- + -->
-        <actor id="1">
-            <nom></nom>
+        <actor id="num1">
+            <nom>Uma Thurman</nom>
+            <edat>54</edat><!-- ? -->
+        </actor>
+        <actor id="num2">
+            <nom>Lucy Liu</nom>
             <edat></edat><!-- ? -->
         </actor>
     </llista_actors>
     <llista_pelicules><!-- + -->
         <pelicula id="">
-            <titol idioma="es"></titol>
-            <director></director>
-            <any></any>
+            <titol idioma="es">Kill Bill Vol.1</titol>
+            <director>Quentin Tarantino</director>
+            <curs>2003</curs>
             <actors><!-- + -->
-                <actor_ref ref="idref"/>
+                <actor_ref ref="num1"/>
             </actors>
         </pelicula>
         <pelicula id="">
-            <titol idioma="es"></titol>
-            <director></director>
-            <any></any>
+            <titol idioma="en">Kill Bill Vol.2</titol>
+            <director>Quentin Tarantino</director>
+            <curs>2004</curs>
             <actors><!-- + -->
-                <actor_ref ref="idref"/>
+                <actor_ref ref="num1"/>
+            </actors>
+            <actors><!-- + -->
+                <actor_ref ref="num2"/>
             </actors>
         </pelicula>
     </llista_pelicules>
     <llista_recomanacions_pelicules>
-        <recomanacio ref="idref"/><!-- * -->
+        <recomanacio ref="rec1"/><!-- * -->
+        <recomanacio ref="rec2"/><!-- * -->
+        <recomanacio ref="rec3"/><!-- * -->
     </llista_recomanacions_pelicules>
 </cataleg>
 
-<!-- afegir dades canviar any i idref-->
-<!-- * possibles combinacions -->
+<!-- * possibles combinacions  ??? -->
+
+<!--
+    ? 0 o 1
+    + 1 o més
+    * 0 o més
+-->
