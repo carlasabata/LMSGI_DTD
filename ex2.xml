@@ -14,18 +14,18 @@
         <pelicula id="">
             <titol idioma="es">Kill Bill Vol.1</titol>
             <director>Quentin Tarantino</director>
-            <curs>2003</curs>
+            <any>2003</any>
             <actors><!-- + -->
-                <actor_ref ref="num1"/>
+                <actor_ref actor_ref="num1"/>
             </actors>
         </pelicula>
         <pelicula id="">
             <titol idioma="en">Kill Bill Vol.2</titol>
             <director>Quentin Tarantino</director>
-            <curs>2004</curs>
+            <any>2004</any>
             <actors><!-- + - 1 o més, 2 -->
-                <actor_ref ref="num1"/>
-                <actor_ref ref="num2"/>
+                <actor_ref actor_ref="num1"/>
+                <actor_ref actor_ref="num2"/>
             </actors>
         </pelicula>
     </llista_pelicules>
