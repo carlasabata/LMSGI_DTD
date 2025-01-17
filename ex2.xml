@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cataleg>
-    <llista_actors><!-- + -->
+    <llista_actors><!-- + - 1 o més, 2 -->
         <actor id="num1">
             <nom>Uma Thurman</nom>
-            <edat>54</edat><!-- ? -->
+            <edat>54</edat><!-- ? - 0 o 1, 1 -->
         </actor>
         <actor id="num2">
             <nom>Lucy Liu</nom>
-            <edat></edat><!-- ? -->
+            <edat></edat><!-- ? - 0 o 1, 0 -->
         </actor>
     </llista_actors>
-    <llista_pelicules><!-- + -->
+    <llista_pelicules><!-- + - 1 o més, 2 -->
         <pelicula id="">
             <titol idioma="es">Kill Bill Vol.1</titol>
             <director>Quentin Tarantino</director>
@@ -23,22 +23,19 @@
             <titol idioma="en">Kill Bill Vol.2</titol>
             <director>Quentin Tarantino</director>
             <curs>2004</curs>
-            <actors><!-- + -->
+            <actors><!-- + - 1 o més, 2 -->
                 <actor_ref ref="num1"/>
-            </actors>
-            <actors><!-- + -->
                 <actor_ref ref="num2"/>
             </actors>
         </pelicula>
     </llista_pelicules>
-    <llista_recomanacions_pelicules>
-        <recomanacio ref="rec1"/><!-- * -->
-        <recomanacio ref="rec2"/><!-- * -->
-        <recomanacio ref="rec3"/><!-- * -->
+    <llista_recomanacions_pelicules><!-- * - 0 o més, 3 -->
+        <recomanacio ref="rec1"/>
+        <recomanacio ref="rec2"/>
+        <recomanacio ref="rec3"/>
     </llista_recomanacions_pelicules>
 </cataleg>
 
-<!-- * possibles combinacions  ??? -->
 
 <!--
     ? 0 o 1
